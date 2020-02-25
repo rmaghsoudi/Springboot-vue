@@ -95,8 +95,6 @@ import api from '../Api';
     },
 
     mounted() {
-      // inject some startup data
-      this.todos = [{title: 'Drink coffee', completed:false},{title: 'Write REST API', completed:false}];
       // hide the loading message
       this.loading = false;
     },
