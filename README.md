@@ -1,24 +1,16 @@
-# vue-front
+# Basic Todo App
+### Made with Vue.js and Spring Boot
 
 ## Project setup
+Initialize the server
 ```
+cd spring-boot-vue
+./gradew bootRun
+```
+Start the frontend
+```
+cd vue-front
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Navigate to [localhost:8080](http://localhost:8080) to interact!
